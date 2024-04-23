@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+:root{
+    --fonte1: "Anta", sans-serif;
+    --color_golden: rgb(123, 103, 11);
+    --color_black1: rgba(4, 3, 4, 0.67);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte1);
+}
+body{
+    background-image: radial-gradient(rgb(16, 15, 16), rgba(21, 20, 21, 0.934));
+}
+header{
+    border-bottom: solid 1px rgb(123, 103, 11);
+    height: 60px;
+    color: var(--color_golden);
+    background-color: var(--color_black1);
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+header > p{
+    margin-left: 180px;
+    margin-right: 720px;
+    margin-top: 20px;
+}
+header > a{
+    color:rgb(123, 103, 11);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#inicio{
+    color: var(--color_golden);
+    height: 580px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    border-bottom: solid 1px var(--color_golden);
+}
+#inicio_left{
+    margin-top: 140px;
+    text-align: center;
+    font-size: 25px;
+}
+#inicio_left_text > h2{
+    margin-bottom: 30px;
+}
+#inicio_left_contact{
+    margin-top: 30px;
+}   
+#inicio_left_contact > a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#inicio_right{
+    margin-top: 120px;
+    border-radius: 50%;
+}
+#sobre{
+    color: rgb(123, 103, 11);
+    height: 520px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-bottom: solid 1px rgb(123, 103, 11);
+}
+#sobre_left{
+    float: left;
+    margin-top: 60px;
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+#sobre_right{
+    margin-top: 60px;
+    width: 45%;
+    float: left;
+    font-size: 25px;
+}
+#button_curriculo{
+    background-color: rgb(123, 103, 11);
+    color: black;
+    height: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#button_curriculo:hover{
+    background-color: rgb(88, 74, 9);
+    cursor: pointer;
+}
+#habilidades{
+    color: rgb(123, 103, 11);
+    height: 520px;
+    margin: auto;
+    width: 80%;
+    border-bottom: solid 1px rgb(123, 103, 11);
+    text-align: center;
+}
+#habilidades > h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#habilidades_buttons > button{
+    height: 100px;
+    width: 240px;
+    background-color: rgb(123, 103, 11);
+    color: black;
+    border-radius: 15px;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-position: center;
+    background-size: cover;
+    display: inline;
+}
+#habilidades_buttons > button > img{
+    float: left;
+    margin-left: 20px;
+}
+#habilidades_buttons > button > p{
+    margin-top: 5px;
+}
+#habilidades_buttons > button:hover{
+    background-color: rgb(88, 74, 9);
+    color: black;
+}
+#projetos{
+    color: rgb(123, 103, 11);
+    height: 520px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#projetos > h1{
+    margin-bottom: 40px
+}
+#projetos_container{
+    display: flex;
+}
+.project{
+    height:320px;
+    width:320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.67);
+    margin: auto;
+    border: solid 2px rgb(123, 103, 11);
+}
+footer{
+    border-top: solid 1px rgb(123, 103, 11);
+    height: 100px;
+    margin: auto;
+    width: 100%;
+    background-color: var(--color_black1);
+    text-align: center;
+    color: rgb(123, 103, 11);
+    font-size: 10px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media(max-width: 1400px){
+    body{
+        width:1400px;
+    }    
+}
+@media(max-width: 1200px){
+    body{
+        width: 1200px;
+    }
+    header{
+        height: 120px;
+        font-size: 40px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+    header > p{
+        margin-right: 80px;
+    }
+    header > a{
+        font-size: 30px;
+        align-items: center;
+    }
+    #inicio{
+        height: 500px;
+    }
+    #inicio_left{
+        font-size: 25px;
+    }
+    #inicio_left_contact > a{
+        width: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #inicio_right > img{
+        margin-top: 30px;
+        width: 220px;
+        margin-left: 20px;
+    }
+    #sobre{
+        height: 520px;
+        margin: auto;
+        display: block;
+    }
+    #sobre_left{
+        height: 320px;
+        width: 50%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    #sobre_left > img{
+        width: 200px;
+    }
+    #sobre_right{
+        height: 320px;
+        font-size: 25px;
+        margin: auto;
+        margin-top: 80px;
+        width: 50%;
+        float: left;
+    }
+    #button_curriculo{
+        padding: 5px;
+        width: 90px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #habilidades{
+        height: 368px;
+        margin: auto;
+        display: inline;
+        font-size: 20px;
+    }
+    #habilidades_buttons > button{
+        height: 80px;
+        width: 220px;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #habilidades_buttons > button > img{
+        float: left;
+        margin-left: 30px;
+        width: 40px;
+    }
+    #habilidades_buttons > button > p{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    #projetos{
+        margin-top: 50px;
+        height: 480px;
+    }
+    #projetos_container{
+        display: flex;
+    }
+    .project{
+        width: 360px;
+        height: 360px;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 900px){
+    body{
+        width: 900px;
+    }
+    header{
+        height: 120px;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    header > a{
+        display: none;
+    }
+    #inicio{
+        height: 500px;
+    }
+    #inicio_left{
+        font-size: 20px;
+    }
+    #inicio_left_contact > a{
+        width: 40px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    #inicio_right > img{
+        margin-top: 20px;
+        width: 180px;
+    }
+    #sobre{
+        height: 540px;
+        margin: auto;
+        display: block;
+    }
+    #sobre_left{
+        height: 300px;
+        width: 50%;
+        margin: auto;
+        margin-top: 140px;
+    }
+    #sobre_left > img{
+        width: 180px;
+    }
+    #sobre_right{
+        height: 300px;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 100px;
+        width: 50%;
+        float: left;
+    }
+    #button_curriculo{
+        padding: 5px;
+        width: 90px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #habilidades{
+        height: 400px;
+        margin: auto;
+        display: inline;
+        font-size: 20px;
+    }
+    #habilidades_buttons > button{
+        height: 60px;
+        width: 180px;
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #habilidades_buttons > button > img{
+        float: left;
+        margin-left: 20px;
+        width: 30px;
+    }
+    #habilidades_buttons > button > p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #projetos{
+        margin-top: 40px;
+        height: 400px;
+    }
+    #projetos_container{
+        display: flex;
+    }
+    .project{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 600px){
+    body{
+        width: 600px;
+    }
+    header{
+        height: 100px;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    header > a{
+        display: none;
+    }
+    #inicio{
+        height: 500px;
+    }
+    #inicio_left{
+        font-size: 15px;
+    }
+    #inicio_left_contact > a{
+        width: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #inicio_right > img{
+        margin-top: 20px;
+        width: 170px;
+    }
+    #sobre{
+        height: 500px;
+        margin: auto;
+        display: block;
+    }
+    #sobre_left{
+        height: 280px;
+        width: 50%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    #sobre_left > img{
+        width: 150px;
+    }
+    #sobre_right{
+        height: 280px;
+        font-size: 14px;
+        margin: auto;
+        margin-top: 80px;
+        width: 50%;
+        float: left;
+    }
+    #button_curriculo{
+        padding: 5px;
+        width: 80px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    #habilidades{
+        height: 400px;
+        margin: auto;
+        display: inline;
+        font-size: 15px;
+    }
+    #habilidades_buttons > button{
+        height: 40px;
+        width: 120px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #habilidades_buttons > button > img{
+        float: left;
+        margin-left: 20px;
+        width: 25px;
+    }
+    #habilidades_buttons > button > p{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    #projetos{
+        height: 380px;
+    }
+    #projetos_container{
+        display: flex;
+    }
+    .project{
+        width: 240px;
+        height: 240px;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
