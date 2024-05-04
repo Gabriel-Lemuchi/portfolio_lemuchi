@@ -30,12 +30,13 @@ body.dark{
     justify-content: space-between;
     position: relative;
     width: 49px;
-    height: 26px;
+    height: 24px;
+    padding: 2px;
 }
 #label > #ball{
     background-color: black;
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     border-radius: 50px;
     top: 2px;
     left: 2px;
@@ -54,13 +55,14 @@ header{
     margin: auto;
     display: flex;
     width: 100%;
+    position: fixed;
 }
 header.dark{
     background-color: white;
 }
 header > p{
     margin-left: 360px;
-    margin-right: 720px;
+    margin-right: 540px;
     margin-top: 20px;
 }
 header > #dark_mode{
@@ -79,7 +81,7 @@ header > a{
 }
 #inicio{
     color: var(--color_golden);
-    height: 580px;
+    height: 780px;
     margin: auto;
     width: 60%;
     display: flex;
@@ -87,7 +89,7 @@ header > a{
     border-bottom: solid 1px var(--color_golden);
 }
 #inicio_left{
-    margin-top: 160px;
+    margin-top: 260px;
     text-align: center;
     font-size: 28px;
 }
@@ -96,19 +98,19 @@ header > a{
 }
 #inicio_left_contact{
     margin-top: 30px;
-}   
+}
 #inicio_left_contact > a{
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
 }
 #inicio_right{
-    margin-top: 120px;
+    margin-top: 240px;
     border-radius: 50%;
 }
 #sobre{
     color: rgb(123, 103, 11);
-    height: 520px;
+    height: 620px;
     margin: auto;
     width: 80%;
     text-align: center;
@@ -116,13 +118,13 @@ header > a{
 }
 #sobre_left{
     float: left;
-    margin-top: 60px;
+    margin-top: 120px;
     width: 30%;
     margin-left: 50px;
     margin-right: 160px;
 }
 #sobre_right{
-    margin-top: 60px;
+    margin-top: 110px;
     width: 45%;
     float: left;
     font-size: 25px;
@@ -142,15 +144,15 @@ header > a{
 }
 #habilidades{
     color: rgb(123, 103, 11);
-    height: 580px;
+    height: 680px;
     margin: auto;
     width: 60%;
     border-bottom: solid 1px rgb(123, 103, 11);
     text-align: center;
 }
 #habilidades > h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 #habilidades_buttons > button{
     height: 100px;
@@ -181,13 +183,13 @@ header > a{
 }
 #projetos{
     color: rgb(123, 103, 11);
-    height: 520px;
+    height: 620px;
     margin: auto;
     width: 80%;
     text-align: center;
 }
 #projetos > h1{
-    margin-bottom: 40px
+    margin-bottom: 80px
 }
 #projetos_container{
     display: flex;
@@ -205,13 +207,16 @@ header > a{
 }
 footer{
     border-top: solid 1px rgb(123, 103, 11);
-    height: 100px;
+    height: 80px;
     margin: auto;
     width: 100%;
     background-color: var(--color_black1);
     text-align: center;
     color: rgb(123, 103, 11);
     font-size: 10px;
+}
+footer.dark{
+    background-color: white;
 }
 h1{
     margin-top: 20px;
@@ -227,7 +232,7 @@ h1{
     }
     header > p{
         margin-left: 180px;
-        margin-right: 720px;
+        margin-right: 620px;
         margin-top: 20px;
     }
     header > a{
@@ -235,14 +240,14 @@ h1{
         margin-top: 20px;
     }
     #inicio{
-        height: 580px;
+        height: 720px;
         margin: auto;
         width: 80%;
         display: flex;
         text-align: center;
     }
     #inicio_left{
-        margin-top: 140px;
+        margin-top: 240px;
         text-align: center;
         font-size: 25px;
     }
@@ -251,31 +256,31 @@ h1{
     }
     #inicio_left_contact{
         margin-top: 30px;
-    }   
+    }
     #inicio_left_contact > a{
         margin-left: 30px;
         margin-right: 30px;
     }
     #inicio_right{
-        margin-top: 120px;
+        margin-top: 220px;
         border-radius: 50%;
     }
     #inicio_right > img{
         width: 300px;
     }
     #sobre{
-        height: 520px;
+        height: 620px;
         margin: auto;
         width: 80%;
     }
     #sobre_left{
-        margin-top: 60px;
+        margin-top: 120px;
         width: 30%;
         margin-left: 50px;
         margin-right: 150px;
     }
     #sobre_right{
-        margin-top: 60px;
+        margin-top: 110px;
         width: 45%;
         float: left;
         font-size: 25px;
@@ -287,14 +292,14 @@ h1{
         margin-top: 20px;
     }
     #habilidades{
-        height: 520px;
+        height: 600px;
         margin: auto;
         width: 80%;
         text-align: center;
     }
     #habilidades > h2{
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
     }
     #habilidades_buttons > button{
         height: 100px;
@@ -317,12 +322,12 @@ h1{
         color: black;
     }
     #projetos{
-        height: 520px;
+        height: 600px;
         margin: auto;
         width: 80%;
     }
     #projetos > h1{
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
     #projetos_container{
         display: flex;
@@ -342,7 +347,7 @@ h1{
     }
     h1{
         margin-top: 20px;
-    }    
+    }
 }
 @media(max-width: 1200px){
     body{
@@ -366,7 +371,7 @@ h1{
         margin-top: 50px;
     }
     #inicio{
-        height: 500px;
+        height: 620px;
     }
     #inicio_left{
         font-size: 25px;
@@ -435,7 +440,7 @@ h1{
     }
     #projetos{
         margin-top: 50px;
-        height: 480px;
+        height: 560px;
     }
     #projetos_container{
         display: flex;
@@ -467,7 +472,7 @@ h1{
         display: none;
     }
     #inicio{
-        height: 500px;
+        height: 640px;
     }
     #inicio_left{
         font-size: 20px;
@@ -535,7 +540,7 @@ h1{
     }
     #projetos{
         margin-top: 40px;
-        height: 400px;
+        height: 500px;
     }
     #projetos_container{
         display: flex;
@@ -557,10 +562,9 @@ h1{
         width: 600px;
     }
     header{
-        height: 60px;
+        height: 55px;
         font-size: 10px;
-        margin: auto;
-        text-align: center;
+        position: fixed;
     }
     header > p{
         margin-left: 100px;
@@ -570,19 +574,26 @@ h1{
         display: none;
     }
     #inicio{
-        height: 500px;
+        height: 600px;
+        width: 100%;
+        display: inline-block;
     }
     #inicio_left{
-        font-size: 15px;
+        font-size: 14px;
+        margin-top: 100px;
     }
     #inicio_left_contact > a{
         width: 30px;
+        margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
+
+    }
+    #inicio_right{
+        margin-top: 20px;
     }
     #inicio_right > img{
-        margin-top: 20px;
-        width: 170px;
+        width: 220px;
     }
     #sobre{
         height: 500px;
