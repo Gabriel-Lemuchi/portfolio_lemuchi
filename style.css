@@ -335,6 +335,7 @@ h1{
     }
     #projetos_container{
         display: flex;
+        flex-wrap: wrap;
     }
     .project{
         height:320px;
@@ -448,6 +449,7 @@ h1{
     }
     #projetos_container{
         display: flex;
+        flex-wrap: wrap;
     }
     .project{
         width: 360px;
@@ -548,6 +550,7 @@ h1{
     }
     #projetos_container{
         display: flex;
+        flex-wrap: wrap;
     }
     .project{
         width: 300px;
@@ -656,6 +659,7 @@ h1{
     }
     #projetos_container{
         display: flex;
+        flex-wrap: wrap;
     }
     .project{
         width: 240px;
