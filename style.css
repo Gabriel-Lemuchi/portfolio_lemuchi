@@ -551,7 +551,7 @@ h1{
         min-height: 500px;
     }
     #projetos_container{
-        display: block;
+        display: flex;
         flex-wrap: wrap;
     }
     .project{
