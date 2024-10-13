@@ -90,6 +90,8 @@ header > a{
 }
 #inicio_left{
     margin-top: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     font-size: 28px;
 }
@@ -549,7 +551,7 @@ h1{
         min-height: 500px;
     }
     #projetos_container{
-        display: flex;
+        display: block;
         flex-wrap: wrap;
     }
     .project{
